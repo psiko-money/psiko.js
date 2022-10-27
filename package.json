@@ -1,0 +1,44 @@
+{
+  "name": "@psiko-money/psiko.js",
+  "version": "0.0.1",
+  "description": "JavaScript SDK for Psiko, written in TypeScript",
+  "author": "Psiko Protocol",
+  "license": "MIT",
+  "keywords": [
+    "psiko",
+    "stablecoin",
+    "elastic",
+    "rebase",
+    "cryptocurrency",
+    "blockchain",
+    "smart-contracts",
+    "wasm",
+    "altcoin",
+    "altcoins",
+    "wallet",
+    "cosmos",
+    "ibc",
+    "inter-blockchain"
+  ],
+  "main": "index.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@cosmjs/launchpad": "0.27.0",
+    "@cosmjs/proto-signing": "0.27.0",
+    "@cosmjs/stargate": "0.27.0",
+    "@keplr-wallet/types": "^0.11.3",
+    "axios": "^0.27.2",
+    "buffer": "^6.0.3",
+    "events": "^3.3.0"
+  },
+  "peerDependencies": {
+    "@cosmjs/launchpad": "0.27.0",
+    "@cosmjs/proto-signing": "0.27.0",
+    "@cosmjs/stargate": "0.27.0"
+  },
+  "devDependencies": {
+    "@types/events": "^3.0.0"
+  }
+}
